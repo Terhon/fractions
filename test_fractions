@@ -1,0 +1,30 @@
+s[global:"przykład"]
+u[test:-15]
+u[testB:test]
+
+>>u:test<<
+
+<u:funkcja:u-argA.s-argB>
+    [test:argA]
+    [testA:1|2]
+    <<testA>>
+    << <a:1>+3|2 >>
+    >>u:fraction<<
+
+    /1=1^2=2v3=argA/
+        @1=1@
+        <<1>>
+        @
+    /-/
+        >>s:nionerg<<
+    \\
+    #1#
+
+    <innaFunkcja:argA.argB>
+<>
+
+<innaFunkcjaDwa:<funkcja:1>.15>
+    u[costam:(1|2*3+<pow:2.4>)|(1)]
+    <:innaFunkcjaDwa:>
+    ##
+<>
